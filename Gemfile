@@ -6,6 +6,7 @@ gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-timeago", "~> 0.13.1"
+  gem 'modern-resume-theme', '~> 2.0', '>= 2.0.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
