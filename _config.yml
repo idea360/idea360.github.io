@@ -128,7 +128,7 @@ content:
       - Guitar
       - Music
   
-      ![Trees](/images/landscape-trees.jpg "Trees")
+      ![Trees](/images/landscape-snow.jpg "Snow"){: width="300" }
 
 # Footer
 footer_show_references: true
