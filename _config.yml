@@ -49,7 +49,7 @@ linkedin_username: chris-kedzierski-162191282
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a hands-on technical leader with extensive experience leading and growing Site Reliability Engineering (SRE) teams to deliver scalable, resilient, and high-performing systems. With a strong technical foundation and a passion for solving complex infrastructure challenges, I focus on driving operational excellence, fostering collaborative team environments, and aligning technical strategies with business goals. My mission is to build systems and teams that thrive under pressure, ensuring reliability and innovation go hand in hand.
+  I am a hands-on technical leader with extensive experience leading and growing DevOps and Site Reliability Engineering (SRE) teams to deliver scalable, resilient, and high-performing systems. With a strong technical foundation and a passion for solving complex infrastructure challenges, I focus on driving operational excellence, fostering collaborative team environments, and aligning technical strategies with business goals. My mission is to build systems and teams that thrive under pressure, ensuring reliability and innovation go hand in hand.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -61,16 +61,16 @@ content:
         sub_title: Sr Engineering Manager
         caption: 2019 - Present
         quote: >
-          Technical leadership driving Alation's SaaS operations and infrastructure.
+          Driving Operations, Oobservability, Tooling, & FedRAMP with Hands-on Leadership.
         description: | # this will include new lines to allow paragraphs
-           Led a team of 8 Site Reliability Engineers to enhance system reliability and optimize cloud infrastructure for 1,000 users, achieving a 33% cost reduction through strategic spend management and observability improvements. Spearheaded the transition to a SaaS model, improved deployment frequency by 30% with Infrastructure-as-Code, and ensured FedRAMP compliance within a 3-month audit timeline. 
+           I spearheaded the transition to a SaaS model with a managed service offering then migration into a multi-tenant environment. I led a team of 8 Site Reliability Engineers to enhance system reliability and optimize cloud infrastructure for thousands of users spanning multiple AWS regions. I also led and implemented observability improvements with Datadog, Prometheus, amd Grafana. I improved deployment frequency with Infrastructure-as-Code and built a FedRAMP compliance within a 3-month audit timeline. 
       - layout: left 
         title: GoBalto/Oracle
         link: https://www.oracle.com/corporate/pressrelease/oracle-buys-gobalto-101718.html
         sub_title: Senior SRE
         caption: 2018 - 2019
         quote: >
-          Aquired by Oracle.
+          Kubernetes Scaling & Cloud Migration Leadership - Aquired by Oracle.
         description:
           Developed and scaled next-generation Kubernetes platforms, enhancing system resilience and mentoring engineers in high-availability best practices. Supported the Oracle acquisition by leading third-party code audits and transitioning infrastructure from AWS to Oracle Cloud Infrastructure, improving reliability and compliance.
       - layout: left
@@ -79,25 +79,25 @@ content:
         sub_title: DevOps Engineer
         caption: 2016 - 2018 
         quote: >
-          First DevOps hire 
+          First DevOps hire - CI/CD, On-Prem & Operation Code. 
         description: 
-          As the first DevOps hire, scaled CI/CD pipelines and infrastructure to support an engineering team’s growth from 5 to 40, ensuring seamless continuous integration and delivery. Contributed directly to code for backup, restore, high availability, and configuration management, enhancing operational reliability and robustness.
+          First DevOps hire; scaled CI/CD pipelines and infrastructure to support engineering team growth from 5 to 100. Directly contributed to backup, restore, high availability, and configuration management code, improving operational reliability and robustness.
       - layout: left
         title: Skype / Microsoft
         link: https://www.skype.com/
         sub_title: Service Engineer 
         caption: 2010 - 2016
         quote: >
-          Shifted from Operations to Internal Tooling to scale CI/CD.
+          Bootstrapped Internal Tooling, Hybrid Cloud Integration & CI/CD
         description:
-          Implemented a hybrid cloud infrastructure integrating Data Centers and Azure, boosting system availability by 20% and enhancing deployment reliability by reducing failure rates by 25% through optimized CI/CD pipelines. Led internal engineering system improvements and managed tools like Jira, Confluence, Nexus, and QuickBuild, increasing productivity and reducing manual interventions.
+           Implemented a hybrid cloud infrastructure integrating Data Centers with Azure, boosting system availability and enhancing deployment reliability by reducing build failure rates through optimized CI/CD pipelines (Maven, Ant). Led internal engineering system improvements and managed tools like Jira, Confluence, Nexus, and QuickBuild to increase productivity.
       - layout: left 
         title: Logica CMG
         link: https://www.cgi.com/
         caption: 2007 - 2010
         sub_title: System Administrator
         quote: >
-          Focused on development environment management
+          Development Environments, Local Infrastructure, & Integrations.
         description:
           Led post-acquisition system integrations and IT infrastructure improvements and enhancing inter-office connectivity for seamless collaboration.
       - layout: left
@@ -106,29 +106,29 @@ content:
         caption: 2005-2007
         sub_title: Network Engineer
         quote: >
-          A lot of miles on my car.
+          Cisco, Networking Fundamentals, & Learning.
         description:
           Managed SMB networks and delivered customized communication solutions while providing on-site IT support.
 
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
     content: | 
-      **Technical Skills:** Kubernetes, Helm, Terraform, AWS, CI/CD (Jenkins, Harness), Observability (Datadog, Prometheus, Grafana), Scripting (Bash, Python), Ansible
+      **_Technical Skills_:** Kubernetes, Helm, Terraform, AWS, CI/CD (Jenkins, Harness), Observability (Datadog, Prometheus, Grafana), Scripting (Bash, Python), Ansible
       
-      **Incident Management & Reliability:** Incident Response, Operational Readiness, High-Availability System Design
+      **_Incident Management & Reliability_:** Incident Response, Operational Readiness, High-Availability System Design
       
-      **Leadership & Collaboration:** Team Building, Strategic Planning, Mentorship, Cross-functional Collaboration
+      **_Leadership & Collaboration_:** Team Building, Strategic Planning, Mentorship, Cross-functional Collaboration
   
   - title: Fun
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in engineering my other interests are:
       - Snowboarding
       - Watches
       - Guitar
       - Music
-  
-      ![Trees](/images/landscape-snow.jpg "Snow"){: width="300" }
+
+      ![Trees](/images/landscape-snow.jpg "Snow"){: width="200" }
 
 # Footer
 footer_show_references: true
