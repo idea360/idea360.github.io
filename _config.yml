@@ -49,7 +49,7 @@ linkedin_username: chris-kedzierski-162191282
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a hands-on technical leader with extensive experience leading and growing DevOps and Site Reliability Engineering (SRE) teams to deliver scalable, resilient, and high-performing systems. With a strong technical foundation and a passion for solving complex infrastructure challenges, I focus on driving operational excellence, fostering collaborative team environments, and aligning technical strategies with business goals. My mission is to build systems and teams that thrive under pressure, ensuring reliability and innovation go hand in hand.
+  I’m a hands-on technical leader passionate about building, deploying, and scaling high-performing systems. Over the years, I’ve had the privilege of working in, leading, and growing DevOps and Site Reliability Engineering (SRE) teams, focusing on solving complex challenges. My approach combines a solid technical foundation with a drive to foster collaborative, high-trust team environments. I align technical strategies with business goals to deliver impactful projects for all company levels. For me, success is about creating trust so that everyone can be at their best.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
