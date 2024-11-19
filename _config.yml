@@ -63,7 +63,7 @@ content:
         quote: >
           Driving Operations, Oobservability, Tooling, & FedRAMP with Hands-on Leadership.
         description: | # this will include new lines to allow paragraphs
-           I spearheaded the transition to a SaaS model with a managed service offering then migration into a multi-tenant environment. I led a team of 8 Site Reliability Engineers to enhance system reliability and optimize cloud infrastructure for thousands of users spanning multiple AWS regions. I also led the implimentation of the Incident Management process with observability tools (Pagerduty, Datadog, Prometheus, and Grafana). I improved production deployment frequency and built a FedRAMP compliance within a 3-month audit timeline. 
+           I spearheaded the transition to a SaaS model with a managed service offering then migration into a multi-tenant environment. I led a team of 8 Site Reliability Engineers to enhance system reliability and optimize cloud infrastructure for thousands of users spanning multiple AWS regions. I also led the implimentation of the Incident Management process with observability tools (Pagerduty, Datadog, Prometheus, and Grafana). I improved production deployment frequency and built a FedRAMP compliance within a 3-month audit timeline.
       - layout: left 
         title: GoBalto/Oracle
         link: https://www.oracle.com/corporate/pressrelease/oracle-buys-gobalto-101718.html
