@@ -61,7 +61,7 @@ content:
         sub_title: Sr SRE/Engineering Manager
         caption: 2019 - Present
         quote: >
-          Driving Operations, Oobservability, Tooling, & FedRAMP with Hands-on Leadership.
+          Operations, Oobservability, Tooling, FedRAMP, & Hands-on Leadership.
         description: | # this will include new lines to allow paragraphs
            I spearheaded the transition to a SaaS model with a managed service offering then migration into a multi-tenant environment. I led a team of 8 Site Reliability Engineers to enhance system reliability and optimize cloud infrastructure for thousands of users spanning multiple AWS regions. I also led the implimentation of the Incident Management process with observability tools (Pagerduty, Datadog, Prometheus, and Grafana). I improved production deployment frequency and built a FedRAMP compliance within a 3-month audit timeline.
       - layout: left 
