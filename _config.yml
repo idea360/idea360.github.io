@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Chris Kedzierski
-title: SRE, DevOps, & Leadership 
+title: SRE, DevOps, & Hands-on Leadership 
 email: chris@ked.ski
 #website: chris.ked.ski
 #phone: 415-555-1212
@@ -49,7 +49,7 @@ linkedin_username: chris-kedzierski-162191282
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I’m a hands-on technical leader passionate about building, deploying, and scaling high-performing systems. Over the years, I’ve had the privilege of working in, leading, and growing DevOps and Site Reliability Engineering (SRE) teams, focusing on solving complex challenges. My approach combines a solid technical foundation with a drive to foster collaborative, high-trust team environments. I align technical strategies with business goals to deliver impactful projects for all company levels. For me, success is about creating trust so that everyone can be at their best.
+  I’m a Site Reliability Engineering leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, and FedRAMP implementation. I thrive at the intersection of technical innovation and team leadership, mentoring engineers, optimizing operations, and delivering impactful solutions that enhance reliability and user experience. I enjoy collaborating through thoughtful planning and execution.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -61,9 +61,9 @@ content:
         sub_title: Sr SRE/Engineering Manager
         caption: 2019 - Present
         quote: >
-          Operations, Observability, Tooling, FedRAMP, & Hands-on Leadership.
+          Operations, Observability, SRE Tooling, & FedRAMP
         description: | # this will include new lines to allow paragraphs
-           I spearheaded the transition to a SaaS model with a managed service offering then migration into a multi-tenant environment. I led a team of 8 Site Reliability Engineers to enhance system reliability and optimize cloud infrastructure for thousands of users spanning multiple AWS regions. I also led the implimentation of the Incident Management process with observability tools (Pagerduty, Datadog, Prometheus, and Grafana). I improved production deployment frequency and built a FedRAMP compliance within a 3-month audit timeline.
+           Led the implementation of Alation's first-generation Cloud SaaS platform, driving a successful customer migration to a multi-tenant environment and unlocking new revenue streams. Managed and mentored a team of 8 Site Reliability Engineers overseeing a multi-regional AWS environment, including a large-scale EKS Kubernetes deployment. Delivered FedRAMP environments within three months, established robust observability and incident management frameworks, and drove operational efficiency through initiatives like the Cloud Control Plane and Customer Portal development. Played a key role in infrastructure planning and facilitated architectural discussions for major engineering projects.
       - layout: left 
         title: GoBalto/Oracle
         link: https://www.oracle.com/corporate/pressrelease/oracle-buys-gobalto-101718.html
