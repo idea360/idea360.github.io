@@ -2,6 +2,9 @@
 repository: idea360/idea360.github.io
 favicon: images/favicon.ico
 
+# Live load
+livereload: true
+
 # Content configuration version
 version: 2
 
@@ -23,7 +26,7 @@ github_username:  idea360
 # facebook_username: jekyll
 # flickr_username: jekyll
 #instagram_username: jameswgrant
-linkedin_username: chris-kedzierski-162191282
+linkedin_username: ckedz
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -32,10 +35,10 @@ linkedin_username: chris-kedzierski-162191282
 
 # Additional icon links
 #additional_links:
-#- title: itsgoingto.be
+#- title: US Citizen
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
-# - title: another link
+#- title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
@@ -49,8 +52,25 @@ linkedin_username: chris-kedzierski-162191282
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I’m a Site Reliability Engineering leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, and FedRAMP implementation. I thrive at the intersection of technical innovation and team leadership, mentoring engineers, optimizing operations, and delivering impactful solutions that enhance reliability and user experience. I enjoy collaborating through thoughtful planning and execution.
+  I’m a hands-on technical leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, bootstrapping teams, and FedRAMP implementation. I thrive at the intersection of technical innovation and team leadership. I enjoy collaborating through thoughtful planning and execution to deliver solutions and improve the user experience.
 content:
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Technical Skills
+        quote: > 
+          Kubernetes, Helm, Terraform, AWS, CI/CD (Jenkins, Harness), 
+          Observability (Datadog, Prometheus, Grafana), Linux,  
+          Scripting (Bash, Python), Ansible
+      - layout: left
+        title: Leadership & Collaboration
+        quote: >
+          Team Building, Strategic Planning, Mentorship, Cross-functional Collaboration,
+          Team Leadership, Mentoring, Cross-functional Collaboration, Strategic Planning, 
+          CI/CD Best Practices, Active Listening, Effective Communication, Incident Response, 
+          Operational Readiness
+  
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -63,7 +83,7 @@ content:
         quote: >
           Operations, Observability, SRE Tooling, & FedRAMP
         description: | # this will include new lines to allow paragraphs
-           Led the implementation of Alation's first-generation Cloud SaaS platform, driving a successful customer migration to a multi-tenant environment and unlocking new revenue streams. Managed and mentored a team of 8 Site Reliability Engineers overseeing a multi-regional AWS environment, including a large-scale EKS Kubernetes deployment. Delivered FedRAMP environments within three months, established robust observability and incident management frameworks, and drove operational efficiency through initiatives like the Cloud Control Plane and Customer Portal development. Played a key role in infrastructure planning and facilitated architectural discussions for major engineering projects.
+           Site Reliability Engineering leader with a proven track record in building and scaling Cloud SaaS platforms. Skilled in managing multi-regional AWS environments, mentoring teams, enhancing reliability, implementing advanced observability and incident management processes, delivering FedRAMP-compliant environments on aggressive timelines, establishing scalable cloud automation tools, and directing strategic infrastructure upgrades and architecture discussions to enable engineering innovation.
       - layout: left 
         title: GoBalto/Oracle
         link: https://www.oracle.com/corporate/pressrelease/oracle-buys-gobalto-101718.html
@@ -109,15 +129,6 @@ content:
           Cisco, Networking Fundamentals, & Learning.
         description:
           Managed SMB networks and delivered customized communication solutions while providing on-site IT support.
-
-  - title: Skills # Title for the section
-    layout: text # Type of content section (list/text)
-    content: | 
-      **_Technical Skills_:** Kubernetes, Helm, Terraform, AWS, CI/CD (Jenkins, Harness), Observability (Datadog, Prometheus, Grafana), Scripting (Bash, Python), Ansible
-      
-      **_Incident Management & Reliability_:** Incident Response, Operational Readiness, High-Availability System Design
-      
-      **_Leadership & Collaboration_:** Team Building, Strategic Planning, Mentorship, Cross-functional Collaboration
   
   - title: Fun
     layout: text

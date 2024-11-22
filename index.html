@@ -83,6 +83,17 @@ permalink: /
     </a>
 </div>
 
+site.posts : {{ site.posts }}
+My posts:
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
 {% for section in site.sections %}
   {% assign loopindex = forloop.index | modulo: 2 %}
   <section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0px;">

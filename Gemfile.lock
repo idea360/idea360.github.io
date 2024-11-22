@@ -284,6 +284,7 @@ DEPENDENCIES
   jekyll
   jekyll-seo-tag
   jekyll-timeago (~> 0.13.1)
+  jekyll-watch
   kramdown-parser-gfm
   modern-resume-theme (~> 2.0, >= 2.0.3)
 

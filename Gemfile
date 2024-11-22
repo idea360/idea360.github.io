@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem "jekyll-timeago", "~> 0.13.1"
   gem 'modern-resume-theme', '~> 2.0', '>= 2.0.3'
   gem "github-pages"
+  gem "jekyll-watch"
 end
