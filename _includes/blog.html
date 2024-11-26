@@ -1,0 +1,16 @@
+<div class="container intro-container">
+  <h3 id="{{ site.blog_title | slugify | default: 'about-me' }}">{{ site.blog_title | default:
+  "Blog" }}</h3>
+  <div class="row clearfix">
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

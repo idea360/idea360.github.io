@@ -12,7 +12,7 @@ version: 2
 name: Chris Kedzierski
 title: SRE, DevOps, & Hands-on Leadership 
 email: chris@ked.ski
-#website: chris.ked.ski
+website: chris.ked.ski
 #phone: 415-555-1212
 
 # Dark Mode (true/false/never)
@@ -48,30 +48,20 @@ linkedin_username: ckedz
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
+# Blog Section:
+blog_title: Posts 
+blog_theme: 
+
+baseurl: /
+
 # About Section
-# about_title: About Me
+about_title: Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I’m a hands-on technical leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, bootstrapping teams, and FedRAMP implementation. I thrive at the intersection of technical innovation and team leadership. I enjoy collaborating through thoughtful planning and execution to deliver solutions and improve the user experience.
 content:
-  - title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Technical Skills
-        quote: > 
-          Kubernetes, Helm, Terraform, AWS, CI/CD (Jenkins, Harness), 
-          Observability (Datadog, Prometheus, Grafana), Linux,  
-          Scripting (Bash, Python), Ansible
-      - layout: left
-        title: Leadership & Collaboration
-        quote: >
-          Team Building, Strategic Planning, Mentorship, Cross-functional Collaboration,
-          Team Leadership, Mentoring, Cross-functional Collaboration, Strategic Planning, 
-          CI/CD Best Practices, Active Listening, Effective Communication, Incident Response, 
-          Operational Readiness
-  
-  - title: Experience # Title for the section
+ 
+  - title: Carreer # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -142,7 +132,7 @@ content:
       ![Trees](/images/landscape-snow.jpg "Snow"){: width="200" }
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
@@ -154,3 +144,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-feed
