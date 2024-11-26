@@ -7,12 +7,12 @@
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   <main class="page-content" aria-label="Content">
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content" aria-label="Content">
+    <div class="container header-container" aria-label="Content">
       <article class="title">
-        <h1 class="title">
+        <h1 class="row">
           {{ page.title }}
         </h1>
-        <div class="content">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
           <div class="col-md-12">
             {{ content }}
           </div>
