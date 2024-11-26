@@ -6,8 +6,8 @@
       <ul>
         {% for post in site.posts %}
           <li>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="col-xs-12">{{ post.date | date: "%B %e, %Y" }}</p>
+            <h2>{{ post.date | date: "%b %e, %Y" }} <a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="col-xs-12">{{ post.content | strip_html | truncatewords: 17 }}</p>
           </li>
         {% endfor %}
       </ul>

@@ -50,8 +50,7 @@ linkedin_username: ckedz
 
 # Blog Section:
 blog_title: Posts 
-blog_theme: 
-
+excerpt_separator: <!-- excerpt-end --> 
 baseurl: /
 
 # About Section
