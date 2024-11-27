@@ -8,16 +8,16 @@
 
   <main class="page-content" aria-label="Content">
     <div class="container header-container" aria-label="Content">
-      <article class="title">
+      <article class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-container">
         <h1 class="row">
           {{ page.title }}
         </h1>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-container">
           <div class="col-md-12">
             {{ content }}
           </div>
         </div>
-        <div class="footer">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-right">
           Written on {{ page.date | date: "%B %e, %Y" }}
         </div>
       
