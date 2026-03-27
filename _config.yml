@@ -1,128 +1,99 @@
-# Site
 repository: idea360/idea360.github.io
 favicon: images/favicon.ico
 
-# Live load
 livereload: true
-
-# Content configuration version
 version: 2
 
-# Personal info
 name: Chris Kedzierski
-title: Hands-on Leader - SRE & DevOps 
+title: Hands-on Leader - SRE & DevOps
 email: chris@ked.ski
 website: chris.ked.ski
-#phone: 415-555-1212
 
-# Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
-# twitter_username: facespics
-github_username:  idea360
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
+github_username: idea360
 linkedin_username: ckedz
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-#additional_links:
-#- title: US Citizen
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-#- title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# Blog Section:
-blog_title: Posts 
-excerpt_separator: <!-- excerpt-end --> 
+blog_title: Posts
+excerpt_separator: "<!-- excerpt-end -->"
 baseurl: ""
 
-# About Section
 about_title: Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  I’m a hands-on technical leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, bootstrapping teams, and FedRAMP implementation. I thrive at the intersection of technical innovation and team leadership. I enjoy collaborating through thoughtful planning and execution to deliver solutions and improve the user experience.
+about_content: |
+  I’m a hands-on technical leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, bootstrapping teams, and FedRAMP implementation.
+
+  I thrive at the intersection of technical innovation and team leadership. I enjoy collaborating through thoughtful planning and execution to deliver solutions and improve the user experience.
+
 content:
- 
-  - title: Carreer # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Career
+    layout: list
     content:
       - layout: left
         title: Alation Inc.
         link: https://www.alation.com/
-        # link_text: boringcompany.com
         sub_title: Sr SRE/Engineering Manager
         caption: 2019 - Present
         quote: >
           Operations, Observability, SRE Tooling, & FedRAMP
-        description: | # this will include new lines to allow paragraphs
-           Site Reliability Engineering leader with a proven track record in building and scaling Cloud SaaS platforms. Skilled in managing multi-regional AWS environments, mentoring teams, enhancing reliability, implementing advanced observability and incident management processes, delivering FedRAMP-compliant environments on aggressive timelines, establishing scalable cloud automation tools, and directing strategic infrastructure upgrades and architecture discussions to enable engineering innovation.
-      - layout: left 
-        title: GoBalto/Oracle
+        description: |
+          Site Reliability Engineering leader with a proven track record in building and scaling Cloud SaaS platforms. Skilled in managing multi-regional AWS environments, mentoring teams, enhancing reliability, implementing advanced observability and incident management processes, delivering FedRAMP-compliant environments on aggressive timelines, establishing scalable cloud automation tools, and directing strategic infrastructure upgrades and architecture discussions to enable engineering innovation.
+
+      - layout: left
+        title: GoBalto / Oracle
         link: https://www.oracle.com/corporate/pressrelease/oracle-buys-gobalto-101718.html
         sub_title: Senior SRE
         caption: 2018 - 2019
         quote: >
-          Kubernetes Scaling & Cloud Migration Leadership - Aquired by Oracle.
-        description:
+          Kubernetes Scaling & Cloud Migration Leadership - Acquired by Oracle.
+        description: |
           Developed and scaled next-generation Kubernetes platforms, enhancing system resilience and mentoring engineers in high-availability best practices. Supported the Oracle acquisition by leading third-party code audits and transitioning infrastructure from AWS to Oracle Cloud Infrastructure, improving reliability and compliance.
+
       - layout: left
-        title: Alation Inc. 
+        title: Alation Inc.
         link: https://www.alation.com/
         sub_title: DevOps Engineer
-        caption: 2016 - 2018 
+        caption: 2016 - 2018
         quote: >
-          First DevOps hire - CI/CD, On-Prem & Operation Code. 
-        description: 
+          First DevOps hire - CI/CD, On-Prem & Operations Code.
+        description: |
           First DevOps hire; scaled CI/CD pipelines and infrastructure to support engineering team growth from 5 to 100. Directly contributed to backup, restore, high availability, and configuration management code, improving operational reliability and robustness.
+
       - layout: left
         title: Skype / Microsoft
         link: https://www.skype.com/
-        sub_title: Service Engineer 
+        sub_title: Service Engineer
         caption: 2010 - 2016
         quote: >
           Bootstrapped Internal Tooling, Hybrid Cloud Integration & CI/CD
-        description:
-           Implemented a hybrid cloud infrastructure integrating Data Centers with Azure, boosting system availability and enhancing deployment reliability by reducing build failure rates through optimized CI/CD pipelines (Maven, Ant). Led internal engineering system improvements and managed tools like Jira, Confluence, Nexus, and QuickBuild to increase productivity.
-      - layout: left 
+        description: |
+          Implemented a hybrid cloud infrastructure integrating data centers with Azure, boosting system availability and enhancing deployment reliability by reducing build failure rates through optimized CI/CD pipelines (Maven, Ant). Led internal engineering system improvements and managed tools like Jira, Confluence, Nexus, and QuickBuild to increase productivity.
+
+      - layout: left
         title: Logica CMG
         link: https://www.cgi.com/
         caption: 2007 - 2010
         sub_title: System Administrator
         quote: >
           Development Environments, Local Infrastructure, & Integrations.
-        description:
-          Led post-acquisition system integrations and IT infrastructure improvements and enhancing inter-office connectivity for seamless collaboration.
+        description: |
+          Led post-acquisition system integrations and IT infrastructure improvements, enhancing inter-office connectivity for seamless collaboration.
+
       - layout: left
         title: Infradapt
         link: https://www.infradapt.com/
-        caption: 2005-2007
+        caption: 2005 - 2007
         sub_title: Network Engineer
         quote: >
           Cisco, Networking Fundamentals, & Learning.
-        description:
+        description: |
           Managed SMB networks and delivered customized communication solutions while providing on-site IT support.
-  
+
   - title: Fun
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in engineering my other interests are:
+    content: |
+      Alongside my interests in engineering, my other interests are:
+
       - Snowboarding
       - Watches
       - Guitar
@@ -130,15 +101,14 @@ content:
 
       ![Trees](/images/landscape-snow.jpg "Snow"){: width="200" }
 
-# Footer
 footer_show_references: false
-# references_title: References on request (Override references text)
 
-# Build settings
-remote_theme: sproogen/modern-resume-theme
+remote_theme: sproogen/resume-theme
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-feed
 
 sass:
   sass_dir: _sass
