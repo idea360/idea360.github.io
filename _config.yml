@@ -5,7 +5,7 @@ livereload: true
 version: 2
 
 name: Chris Kedzierski
-title: Engineering Leader, SRE & DevOps
+title: Engineering Leader for Platform, Reliability & Infrastructure
 email: chris@ked.ski
 website: chris.ked.ski
 
@@ -19,11 +19,22 @@ baseurl: ""
 about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  Engineering leader with deep experience building and operating reliable cloud SaaS platforms at scale. I work across infrastructure, platform engineering, observability, and security to improve resilience, accelerate delivery, and raise the technical bar for teams.
+  Engineering leader with deep experience building and operating cloud platforms that are reliable, scalable, and secure. I lead across infrastructure, platform engineering, observability, and operations to improve resilience, accelerate delivery, and help teams execute at a higher level.
 
-  My background spans multi-region AWS environments, Kubernetes platforms, infrastructure modernization, and FedRAMP delivery. I am most effective where hands-on technical execution and clear engineering leadership are both required.
+  My background spans AWS, Kubernetes, infrastructure modernization, and regulated environments. I am most effective in roles that require strong technical judgment, calm operational leadership, and the ability to turn platform investments into measurable engineering outcomes.
 
 content:
+  - title: Focus Areas
+    layout: text
+    content: |
+      - Engineering Leadership
+      - Platform Engineering
+      - Site Reliability Engineering
+      - AWS & Kubernetes
+      - Observability & Incident Management
+      - Security & Compliance
+      - Infrastructure Modernization
+
   - title: Career
     layout: list
     content:
@@ -35,7 +46,7 @@ content:
         quote: >
           Systems Engineering Leadership for AWS and Kubernetes Platforms
         description: |
-          Lead a six-person systems engineering team responsible for POLITICO’s AWS production infrastructure and Kubernetes-based workloads. Drive infrastructure strategy and execution across reliability, scalability, security, and operational excellence, in close partnership with development, network engineering, and cybersecurity teams.
+          Lead a six-person systems engineering team responsible for POLITICO’s AWS production infrastructure and Kubernetes-based workloads. Drive infrastructure strategy and day-to-day execution across reliability, scalability, security, and operational excellence in partnership with development, network engineering, and cybersecurity teams.
 
       - layout: left
         title: Alation Inc.
@@ -45,7 +56,7 @@ content:
         quote: >
           Reliability Engineering, Observability, Platform Tooling, and FedRAMP
         description: |
-          Lead Site Reliability Engineering initiatives for a growing cloud SaaS platform, with responsibility spanning multi-region AWS operations, observability, incident management, and engineering enablement. Built teams and tooling that improved platform reliability, supported product growth, and delivered FedRAMP-compliant environments on demanding timelines.
+          Led Site Reliability Engineering for a growing cloud SaaS platform across AWS operations, observability, incident management, and engineering enablement. Built teams, processes, and tooling that improved platform reliability, supported product growth, and delivered FedRAMP-compliant environments on demanding timelines.
 
       - layout: left
         title: GoBalto / Oracle
@@ -55,7 +66,7 @@ content:
         quote: >
           Kubernetes Scale, Platform Reliability, and OCI Migration
         description: |
-          Scaled Kubernetes-based platforms and improved service resilience through stronger operational practices and technical leadership. Supported the Oracle acquisition by leading third-party code audits and helping transition infrastructure from AWS to Oracle Cloud Infrastructure.
+          Helped scale Kubernetes-based platforms and improve service resilience through stronger operational practices and technical leadership. Supported the Oracle acquisition by leading third-party code audits and helping transition infrastructure from AWS to Oracle Cloud Infrastructure.
 
       - layout: left
         title: Alation Inc.
@@ -65,7 +76,7 @@ content:
         quote: >
           First DevOps Hire for CI/CD, Infrastructure, and Operations Automation
         description: |
-          Joined as the first DevOps engineer and scaled CI/CD pipelines and infrastructure to support rapid engineering growth. Contributed directly to backup, restore, high-availability, and configuration management systems that strengthened operational maturity.
+          Joined as the first DevOps engineer and scaled CI/CD pipelines and infrastructure to support rapid engineering growth. Built and improved backup, restore, high-availability, and configuration management systems that increased operational maturity.
 
       - layout: left
         title: Skype / Microsoft
@@ -75,7 +86,7 @@ content:
         quote: >
           Internal Platform Tooling, Hybrid Cloud Integration, and CI/CD
         description: |
-          Built hybrid cloud capabilities integrating data center infrastructure with Azure and improved deployment reliability through stronger CI/CD systems. Led improvements to internal engineering platforms and tools, including Jira, Confluence, Nexus, and QuickBuild, to increase developer productivity.
+          Built hybrid cloud capabilities integrating data center infrastructure with Azure and improved deployment reliability through stronger CI/CD systems. Led improvements to internal engineering platforms and tools that increased developer productivity and reduced operational friction.
 
       - layout: left
         title: Logica CMG
@@ -85,7 +96,7 @@ content:
         quote: >
           Development Environments, Local Infrastructure, and Systems Integration
         description: |
-          Led post-acquisition systems integration work and improved internal infrastructure to support more consistent operations across offices.
+          Led post-acquisition systems integration work and improved internal infrastructure to support more consistent operations across offices and teams.
 
       - layout: left
         title: Infradapt
