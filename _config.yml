@@ -14,8 +14,6 @@ darkmode: true
 github_username: idea360
 linkedin_username: ckedz
 
-blog_title: Posts
-excerpt_separator: "<!-- excerpt-end -->"
 baseurl: ""
 
 about_title: Me
@@ -108,7 +106,6 @@ remote_theme: sproogen/resume-theme
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-feed
 
 sass:
   sass_dir: _sass
