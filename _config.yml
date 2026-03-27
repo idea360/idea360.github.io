@@ -5,7 +5,7 @@ livereload: true
 version: 2
 
 name: Chris Kedzierski
-title: Hands-on Leader - SRE & DevOps
+title: Engineering Leader, SRE & DevOps
 email: chris@ked.ski
 website: chris.ked.ski
 
@@ -16,26 +16,35 @@ linkedin_username: ckedz
 
 baseurl: ""
 
-about_title: Me
+about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  I’m a hands-on technical leader passionate about building scalable, high-availability systems and fostering technical excellence within teams. With extensive experience in cloud-native technologies, I’ve successfully led initiatives like implementing multi-tenant SaaS platforms, driving large-scale infrastructure upgrades, bootstrapping teams, and FedRAMP implementation.
+  Engineering leader with deep experience building and operating reliable cloud SaaS platforms at scale. I work across infrastructure, platform engineering, observability, and security to improve resilience, accelerate delivery, and raise the technical bar for teams.
 
-  I thrive at the intersection of technical innovation and team leadership. I enjoy collaborating through thoughtful planning and execution to deliver solutions and improve the user experience.
+  My background spans multi-region AWS environments, Kubernetes platforms, infrastructure modernization, and FedRAMP delivery. I am most effective where hands-on technical execution and clear engineering leadership are both required.
 
 content:
   - title: Career
     layout: list
     content:
       - layout: left
+        title: POLITICO
+        sub_title: Systems Engineering Manager
+        caption: 2025 - Present
+        quote: >
+          Systems Engineering Leadership for AWS and Kubernetes Platforms
+        description: |
+          Lead a six-person systems engineering team responsible for POLITICO’s AWS production infrastructure and Kubernetes-based workloads. Drive infrastructure strategy and execution across reliability, scalability, security, and operational excellence, in close partnership with development, network engineering, and cybersecurity teams.
+
+      - layout: left
         title: Alation Inc.
         link: https://www.alation.com/
         sub_title: Sr SRE/Engineering Manager
         caption: 2019 - Present
         quote: >
-          Operations, Observability, SRE Tooling, & FedRAMP
+          Reliability Engineering, Observability, Platform Tooling, and FedRAMP
         description: |
-          Site Reliability Engineering leader with a proven track record in building and scaling Cloud SaaS platforms. Skilled in managing multi-regional AWS environments, mentoring teams, enhancing reliability, implementing advanced observability and incident management processes, delivering FedRAMP-compliant environments on aggressive timelines, establishing scalable cloud automation tools, and directing strategic infrastructure upgrades and architecture discussions to enable engineering innovation.
+          Lead Site Reliability Engineering initiatives for a growing cloud SaaS platform, with responsibility spanning multi-region AWS operations, observability, incident management, and engineering enablement. Built teams and tooling that improved platform reliability, supported product growth, and delivered FedRAMP-compliant environments on demanding timelines.
 
       - layout: left
         title: GoBalto / Oracle
@@ -43,9 +52,9 @@ content:
         sub_title: Senior SRE
         caption: 2018 - 2019
         quote: >
-          Kubernetes Scaling & Cloud Migration Leadership - Acquired by Oracle.
+          Kubernetes Scale, Platform Reliability, and OCI Migration
         description: |
-          Developed and scaled next-generation Kubernetes platforms, enhancing system resilience and mentoring engineers in high-availability best practices. Supported the Oracle acquisition by leading third-party code audits and transitioning infrastructure from AWS to Oracle Cloud Infrastructure, improving reliability and compliance.
+          Scaled Kubernetes-based platforms and improved service resilience through stronger operational practices and technical leadership. Supported the Oracle acquisition by leading third-party code audits and helping transition infrastructure from AWS to Oracle Cloud Infrastructure.
 
       - layout: left
         title: Alation Inc.
@@ -53,9 +62,9 @@ content:
         sub_title: DevOps Engineer
         caption: 2016 - 2018
         quote: >
-          First DevOps hire - CI/CD, On-Prem & Operations Code.
+          First DevOps Hire for CI/CD, Infrastructure, and Operations Automation
         description: |
-          First DevOps hire; scaled CI/CD pipelines and infrastructure to support engineering team growth from 5 to 100. Directly contributed to backup, restore, high availability, and configuration management code, improving operational reliability and robustness.
+          Joined as the first DevOps engineer and scaled CI/CD pipelines and infrastructure to support rapid engineering growth. Contributed directly to backup, restore, high-availability, and configuration management systems that strengthened operational maturity.
 
       - layout: left
         title: Skype / Microsoft
@@ -63,9 +72,9 @@ content:
         sub_title: Service Engineer
         caption: 2010 - 2016
         quote: >
-          Bootstrapped Internal Tooling, Hybrid Cloud Integration & CI/CD
+          Internal Platform Tooling, Hybrid Cloud Integration, and CI/CD
         description: |
-          Implemented a hybrid cloud infrastructure integrating data centers with Azure, boosting system availability and enhancing deployment reliability by reducing build failure rates through optimized CI/CD pipelines (Maven, Ant). Led internal engineering system improvements and managed tools like Jira, Confluence, Nexus, and QuickBuild to increase productivity.
+          Built hybrid cloud capabilities integrating data center infrastructure with Azure and improved deployment reliability through stronger CI/CD systems. Led improvements to internal engineering platforms and tools, including Jira, Confluence, Nexus, and QuickBuild, to increase developer productivity.
 
       - layout: left
         title: Logica CMG
@@ -73,9 +82,9 @@ content:
         caption: 2007 - 2010
         sub_title: System Administrator
         quote: >
-          Development Environments, Local Infrastructure, & Integrations.
+          Development Environments, Local Infrastructure, and Systems Integration
         description: |
-          Led post-acquisition system integrations and IT infrastructure improvements, enhancing inter-office connectivity for seamless collaboration.
+          Led post-acquisition systems integration work and improved internal infrastructure to support more consistent operations across offices.
 
       - layout: left
         title: Infradapt
@@ -83,21 +92,9 @@ content:
         caption: 2005 - 2007
         sub_title: Network Engineer
         quote: >
-          Cisco, Networking Fundamentals, & Learning.
+          Network Engineering, SMB Infrastructure, and Client Delivery
         description: |
-          Managed SMB networks and delivered customized communication solutions while providing on-site IT support.
-
-  - title: Fun
-    layout: text
-    content: |
-      Alongside my interests in engineering, my other interests are:
-
-      - Snowboarding
-      - Watches
-      - Guitar
-      - Music
-
-      ![Trees](/images/landscape-snow.jpg "Snow"){: width="200" }
+          Managed SMB network environments and delivered communication and infrastructure solutions for clients, while providing on-site technical support.
 
 footer_show_references: false
 

@@ -1,15 +1,25 @@
 .dark {
-  background-color: #222;
-  color: #e6e6e6;
-}
+  --bg: #0d1418;
+  --surface: rgba(17, 26, 31, 0.86);
+  --surface-strong: #111a1f;
+  --text: #dbe4ea;
+  --muted: #9eb0bc;
+  --heading: #f2f6f8;
+  --accent: #6fb3c7;
+  --accent-strong: #96d0df;
+  --border: rgba(219, 228, 234, 0.12);
+  --shadow: 0 18px 44px rgba(0, 0, 0, 0.35);
+  background:
+    radial-gradient(circle at top left, rgba(111, 179, 199, 0.14), transparent 28%),
+    linear-gradient(180deg, #0b1216 0%, #121b20 100%);
+  color: var(--text);
 
-.dark {
   mark {
-    color: #222;
-    background-color: #e6e6e6;
+    color: #0b1216;
+    background-color: #dbe4ea;
   }
 
   a {
-    color: #477dca;
+    color: var(--accent);
   }
 }
