@@ -51,7 +51,7 @@ linkedin_username: ckedz
 # Blog Section:
 blog_title: Posts 
 excerpt_separator: <!-- excerpt-end --> 
-baseurl: /
+baseurl: ""
 
 # About Section
 about_title: Me
@@ -135,12 +135,11 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 sass:
   sass_dir: _sass
   style: compressed
-
-plugins:
- - jekyll-seo-tag
- - jekyll-feed

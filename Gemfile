@@ -10,3 +10,4 @@ group :jekyll_plugins do
   gem 'modern-resume-theme', '~> 2.0', '>= 2.0.3'
   gem "github-pages"
 end
+
